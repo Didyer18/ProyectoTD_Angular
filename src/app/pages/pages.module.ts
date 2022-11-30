@@ -31,8 +31,6 @@ import { AuthModule } from '../auth/auth.module';
     SharedModule,
     AuthModule,
     RouterModule,
-    BrowserModule,
-    // PagesModule
   ],
 
 })
