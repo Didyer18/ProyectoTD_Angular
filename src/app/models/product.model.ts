@@ -1,13 +1,12 @@
-import { CategoryModel } from "./category.model"
+import {CategoryModel} from "./category.model"
 
+export interface ProductModel {
 
-export interface IProduct {
-
-    id:number
-    title:string
-    price:number,
-    description:string,
-    images:string[]
-    category:CategoryModel
+    id: number,
+    title: string,
+    price: number,
+    description: string,
+    images: string[],
+    category: CategoryModel
 
 }

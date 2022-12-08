@@ -1,7 +1,7 @@
-export interface CategoryModel{
+export interface CategoryModel {
 
-  id:number,
-  name:string,
+  id: number,
+  name: string,
   image:string
 
-}
+  }

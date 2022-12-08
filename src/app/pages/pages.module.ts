@@ -4,7 +4,6 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
 import { ProductComponent } from './product/product.component';
-import { BrowserModule } from '@angular/platform-browser';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { AuthModule } from '../auth/auth.module';
