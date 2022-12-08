@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthComponent } from './auth.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { DashboardComponent } from '../pages/dashboard/dashboard.component';
+
 const routes: Routes = [
   //rutas hijas
    {
@@ -12,6 +14,7 @@ const routes: Routes = [
         children: [
         { path: 'login', component: LoginComponent },
         { path: 'register', component: RegisterComponent },
+        { path: 'dashboard', component: DashboardComponent },
         { path:'', redirectTo:'/dashboard', pathMatch:'full'},
       ]
     },
